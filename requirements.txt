@@ -1,0 +1,30 @@
+# 深度学习与推理（版本以 GPU 场景为默认假设）
+# 说明：以下版本在实际部署时应与本机 CUDA 版本及驱动保持兼容，
+# 建议按 README 中“PyTorch 安装说明”优先从官方命令安装，再视情况调整版本。
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+torch-tensorrt==2.1.0
+ultralytics==8.3.0
+onnxruntime==1.17.0
+
+# 计算机视觉与图像处理
+opencv-python==4.9.0.80
+numpy==1.26.4
+matplotlib==3.8.4
+scikit-image==0.22.0
+Pillow==10.3.0
+
+# 训练与数据处理
+pycocotools==2.0.7
+tqdm==4.66.4
+json_tricks==3.17.3
+filterpy==1.4.5
+munkres==1.1.4
+
+# 工具与扩展
+PyYAML==6.0.1
+click==8.1.7
+ffmpeg-python==0.2.0
+Cython==3.0.10
+setuptools==69.5.1
+
