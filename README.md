@@ -18,9 +18,9 @@
 项目所需的第三方依赖已在 `requirements.txt` 中列出，并为主要组件给出了参考版本（默认假设使用 GPU 场景）：
 
 - **深度学习与推理**  
-  - `torch==2.1.0+cu121`  
+  - `torch==2.5.1+cu121`  
   - `torchvision==0.16.0+cu121`  
-  - `torch-tensorrt==2.1.0`（**必需，用于 TensorRT engine 推理，与 PyTorch 及 CUDA 版本需保持兼容**）  
+  - `torch-tensorrt==2.5.0`（**必需，用于 TensorRT engine 推理，与 PyTorch 及 CUDA 版本需保持兼容**）  
   - `ultralytics==8.3.0`  
   - `onnxruntime==1.17.0`
 
@@ -78,8 +78,8 @@
 
    ```bash
    # 请根据 https://pytorch.org 选择与本机 CUDA 对应的命令
-   pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121
-   pip install torch-tensorrt==2.1.0
+   pip install torch==2.5.1+cu121 torchvision==0.16.0+cu121
+   pip install torch-tensorrt==2.5.0
    ```
 
 4. **安装其余项目依赖**
